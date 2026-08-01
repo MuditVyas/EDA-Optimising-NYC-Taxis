@@ -2,6 +2,10 @@
 
 Exploratory data analysis of **38 million+ New York City yellow taxi trips from 2023**, turned into an interactive Dash/Plotly dashboard that recommends where to position cabs, when to price up, and which zones drain supply.
 
+![NYC Taxi dashboard walkthrough](reports/figures/dashboard_demo.gif)
+
+*Switching the demand grain between days, hours and months, then narrowing the month range — every chart and KPI recomputes against the filter.*
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -101,15 +105,7 @@ Below that are three sections:
 
 Tipping behaviour is analysed in depth in the notebook but deliberately left out of the dashboard: it turned out to be flat across every cut, and a filter that never moves is not worth the screen space.
 
-Because the dashboard runs locally rather than on a hosted URL, a **screen recording** stands in for a live link.
-
-<!-- Once the demo GIF exists at reports/figures/dashboard_demo.gif, delete this
-     comment and uncomment the line below. GitHub strips <video> tags from
-     README.md, so an animated GIF is the only thing that plays inline here;
-     the full-length MP4 is linked instead. -->
-<!-- ![NYC Taxi dashboard walkthrough](reports/figures/dashboard_demo.gif) -->
-
-*Full walkthrough: link to be added.*
+Because the dashboard runs locally rather than on a hosted URL, the **screen recording at the top of this page** stands in for a live link.
 
 ## Key Findings
 
