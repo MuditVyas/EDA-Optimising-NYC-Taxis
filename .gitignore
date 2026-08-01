@@ -1,0 +1,43 @@
+# Raw monthly trip records (~1 GB) - download from the NYC TLC portal, see README
+data/raw/trip_records/
+
+# CSV exports are always redundant with the parquet equivalents
+*.csv
+
+# Raw screen recordings - a full-length MP4 bloats every clone and GitHub will
+# not play it in README.md anyway. Commit the short GIF in reports/figures/
+# and host the full video externally.
+*.mp4
+*.mov
+
+# data/processed/ IS committed (~19 MB) so that `python dashboard/app.py` works
+# straight after cloning, without needing to execute the notebook first.
+# If you would rather keep derived data out of git history, uncomment these:
+# data/processed/*.parquet
+# data/processed/*.geojson
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets - never commit credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
