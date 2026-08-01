@@ -4,7 +4,7 @@ Exploratory data analysis of **38 million+ New York City yellow taxi trips from 
 
 ![NYC Taxi dashboard walkthrough](reports/figures/dashboard_demo.gif)
 
-*Switching the demand grain between days, hours and months, then narrowing the month range — every chart and KPI recomputes against the filter.*
+*Scrolling from monthly revenue and the pricing charts down to the zone map — the filters and KPIs stay frozen at the top, and switching the map metric or hovering a zone surfaces its name and volume.*
 
 **▶ [Watch the full 96-second walkthrough](https://github.com/MuditVyas/EDA-Optimising-NYC-Taxis/blob/main/reports/dashboard_walkthrough.mp4)** — the whole dashboard end to end, including the geospatial maps and zone tables. GitHub plays it inline; [direct download](https://raw.githubusercontent.com/MuditVyas/EDA-Optimising-NYC-Taxis/main/reports/dashboard_walkthrough.mp4) if you prefer.
 
