@@ -6,6 +6,8 @@ Exploratory data analysis of **38 million+ New York City yellow taxi trips from 
 
 *Switching the demand grain between days, hours and months, then narrowing the month range — every chart and KPI recomputes against the filter.*
 
+**[Watch the full 96-second walkthrough](reports/dashboard_walkthrough.mp4)** — the whole dashboard end to end, including the geospatial maps and zone tables.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -187,8 +189,9 @@ The analysis is deliberately kept in one notebook rather than split across a pac
 │
 ├── reports
 │   ├── Report_NYC_Taxi_Operations_Mudit_Vyas.pdf
+│   ├── dashboard_walkthrough.mp4                 <- Full 96-second screen recording
 │   └── figures
-│       └── dashboard_demo.gif                    <- Short clip of the live dashboard
+│       └── dashboard_demo.gif                    <- Short looping clip for this README
 │
 └── dashboard
     ├── app.py                <- Dash application: layout, sections and callbacks
@@ -219,7 +222,7 @@ Section 1 of the notebook rebuilds the sample from the twelve raw monthly files.
 
 ## Author
 
-**Mudit Vyas** — [GitHub](https://github.com/MuditVyas)
+**Mudit Vyas** — [LinkedIn](https://www.linkedin.com/in/vyasmudit14) · [GitHub](https://github.com/MuditVyas)
 
 ## License
 

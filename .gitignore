@@ -4,11 +4,12 @@ data/raw/trip_records/
 # CSV exports are always redundant with the parquet equivalents
 *.csv
 
-# Raw screen recordings - a full-length MP4 bloats every clone and GitHub will
-# not play it in README.md anyway. Commit the short GIF in reports/figures/
-# and host the full video externally.
+# Raw screen recordings stay out - the untouched capture is ~76 MB and would
+# sit in git history forever. The committed walkthrough below is the same
+# recording re-encoded to 5 MB, which GitHub plays in its file viewer.
 *.mp4
 *.mov
+!reports/dashboard_walkthrough.mp4
 
 # data/processed/ IS committed (~19 MB) so that `python dashboard/app.py` works
 # straight after cloning, without needing to execute the notebook first.
